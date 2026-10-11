@@ -6,7 +6,7 @@ Clans with ranks, a GodieCoin bank, wars and weekly rewards. Minecraft 1.20.1 / 
 
 ### Installation
 
-Install the labeled server JAR on the server and its compatible client JAR on players' clients. Both files belong to the same CurseForge project. The two version numbers may differ; follow the stated pair, never mix releases. Required mod dependencies shown by current source metadata: **ZoneCore**. Check the dependency version range of the exact uploaded file before installation.
+Install **server 1.1.3** on the dedicated server and **client 1.1.3** on players' clients. Both files belong to this one CurseForge project; do not install the server JAR on a client. Required dependency: **ZoneCore** `[2.0.0,)` on the server. The protected server JAR was smoke tested with protected ZoneCore 2.1.3. ZoneProtes is optional for land-claim war integration; without it, clans still start and stop normally. Bank payments also need the compatible ZONE economy provider configured on the server.
 
 ### Configuration
 
@@ -14,8 +14,8 @@ Edit generated TOML files while the server or game is stopped unless a documente
 
 | Config file | Use |
 |---|---|
-| `zonaclans-common.toml` | Verify the exact generated path and options for the selected release. |
-| `clanes/resumen.toml` | Verify the exact generated path and options for the selected release. |
+| `config/zonaclans-common.toml` | Editable general, economy, war, permission and prize settings. |
+| `config/ZONEMODS/zonaclans/clanes/resumen.toml` | Readable export of world data; do not edit it as configuration. |
 
 See [configuration reference](CONFIGURATION.md) for keys detected in source and [release compatibility](RELEASES.md) for version-pair rules.
 
@@ -25,7 +25,7 @@ Clanes con rangos, banco de GodieCoins, guerras y premios semanales. Minecraft 1
 
 ### Instalación
 
-Instala el JAR marcado servidor en el servidor y su JAR cliente compatible en los clientes. Ambos archivos pertenecen al mismo proyecto CurseForge. Los números de versión pueden diferir; respeta la pareja indicada y no mezcles entregas. Dependencias obligatorias indicadas por los metadatos actuales: **ZoneCore**. Comprueba el rango de versión del archivo exacto que instales.
+Instala **servidor 1.1.3** en el servidor dedicado y **cliente 1.1.3** en los clientes. Ambos archivos van en este único proyecto CurseForge; no instales el JAR de servidor en el cliente. Dependencia obligatoria: **ZoneCore** `[2.0.0,)` en el servidor. El JAR servidor protegido se probó con ZoneCore 2.1.3 protegido. ZoneProtes es opcional para integrar las guerras con protecciones; sin él, los clanes arrancan y se detienen normalmente. Los pagos bancarios también requieren el proveedor de economía ZONE compatible configurado en el servidor.
 
 ### Configuración
 
@@ -33,11 +33,12 @@ Edita los TOML generados con el servidor o juego detenido, salvo que exista un c
 
 | Archivo de configuración | Uso |
 |---|---|
-| `zonaclans-common.toml` | Comprueba la ruta y opciones generadas de la entrega elegida. |
-| `clanes/resumen.toml` | Comprueba la ruta y opciones generadas de la entrega elegida. |
+| `config/zonaclans-common.toml` | Opciones editables generales, economía, guerras, permisos y premios. |
+| `config/ZONEMODS/zonaclans/clanes/resumen.toml` | Exportación legible de datos del mundo; no se edita como configuración. |
 
 Consulta la [referencia de configuración](CONFIGURATION.md) para claves detectadas en el código y la [compatibilidad de entregas](RELEASES.md) para las parejas de versiones.
 
 ## Ownership / Titularidad
 
 Documentation and original ZONE visual assets © Elgochogms. This repository contains documentation and a project avatar only; it does not distribute mod source code, private mappings, server secrets or production configuration.
+
