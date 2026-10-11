@@ -6,7 +6,7 @@ Clans with ranks, a GodieCoin bank, wars and weekly rewards. Minecraft 1.20.1 / 
 
 ### Installation
 
-Install **server 1.1.3** on the dedicated server and **client 1.1.3** on players' clients. Both files belong to this one CurseForge project; do not install the server JAR on a client. Required dependency: **ZoneCore** `[2.0.0,)` on the server. The protected server JAR was smoke tested with protected ZoneCore 2.1.3. ZoneProtes is optional for land-claim war integration; without it, clans still start and stop normally. Bank payments also need the compatible ZONE economy provider configured on the server.
+Install **server 1.1.4** on the dedicated server and **client 1.1.4** on players' clients. Both files belong to this one CurseForge project; do not install the server JAR on a client. Required server dependencies: **ZoneCore** `[2.0.0,)` and **ZoneCrates** `[2.0.1,3)`. The protected server JAR was smoke tested with protected ZoneCore 2.1.3 and ZoneCrates 2.0.5. ZoneProtes is optional for land-claim war integration; without it, clans still start and stop normally.
 
 ### Configuration
 
@@ -25,7 +25,7 @@ Clanes con rangos, banco de GodieCoins, guerras y premios semanales. Minecraft 1
 
 ### Instalación
 
-Instala **servidor 1.1.3** en el servidor dedicado y **cliente 1.1.3** en los clientes. Ambos archivos van en este único proyecto CurseForge; no instales el JAR de servidor en el cliente. Dependencia obligatoria: **ZoneCore** `[2.0.0,)` en el servidor. El JAR servidor protegido se probó con ZoneCore 2.1.3 protegido. ZoneProtes es opcional para integrar las guerras con protecciones; sin él, los clanes arrancan y se detienen normalmente. Los pagos bancarios también requieren el proveedor de economía ZONE compatible configurado en el servidor.
+Instala **servidor 1.1.4** en el servidor dedicado y **cliente 1.1.4** en los clientes. Ambos archivos van en este único proyecto CurseForge; no instales el JAR de servidor en el cliente. Dependencias obligatorias del servidor: **ZoneCore** `[2.0.0,)` y **ZoneCrates** `[2.0.1,3)`. El JAR servidor protegido se probó con ZoneCore 2.1.3 protegido y ZoneCrates 2.0.5. ZoneProtes es opcional para integrar las guerras con protecciones; sin él, los clanes arrancan y se detienen normalmente.
 
 ### Configuración
 
