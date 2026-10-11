@@ -1,6 +1,6 @@
 # ZG ZoneClans — releases and compatibility
 
-Protected candidate pair: **server 1.1.4 + client 1.1.4** (10 October 2026), author Elgochogms, All Rights Reserved. Not yet uploaded to CurseForge.
+Protected Beta pair: **server 1.1.4 + client 1.1.4** (10 October 2026), author Elgochogms, All Rights Reserved. Uploaded to the **same CurseForge project** as server file [9124543](https://authors.curseforge.com/#/projects/1738046/files/9124543) and client file [9124556](https://authors.curseforge.com/#/projects/1738046/files/9124556). Moderation and public availability are pending.
 
 - Minecraft 1.20.1, Forge 47.x; isolated server test on Forge 47.4.10 / Java 17.
 - Distribution layout: **paired**.
@@ -14,5 +14,5 @@ Protected candidate pair: **server 1.1.4 + client 1.1.4** (10 October 2026), aut
 
 ## Español
 
-La pareja protegida es **servidor 1.1.4 + cliente 1.1.4**, con autor Elgochogms y licencia All Rights Reserved; todavía no está subida a CurseForge. Esta versión evita el fallo al apagar el servidor cuando no existe el ZoneProtes opcional. El JAR servidor arrancó con ZoneCore 2.1.3 protegido y ZoneCrates 2.0.5 en Forge 47.4.10, registró `/clan` y se detuvo sin errores. Se compiló e inspeccionó el JAR cliente, pero falta probar su inicio gráfico y conexión con el servidor. Los SHA-256 figuran arriba. No mezcles versiones ni instales JAR `-dev`.
+La pareja protegida Beta es **servidor 1.1.4 + cliente 1.1.4**, con autor Elgochogms y licencia All Rights Reserved. Ambos archivos están cargados en **un solo proyecto CurseForge** con los IDs 9124543 y 9124556; falta la moderación y la disponibilidad pública. Esta versión evita el fallo al apagar el servidor cuando no existe el ZoneProtes opcional. El JAR servidor arrancó con ZoneCore 2.1.3 protegido y ZoneCrates 2.0.5 en Forge 47.4.10, registró `/clan` y se detuvo sin errores. Se compiló e inspeccionó el JAR cliente, pero falta probar su inicio gráfico y conexión con el servidor. Los SHA-256 figuran arriba. No mezcles versiones ni instales JAR `-dev`.
 
