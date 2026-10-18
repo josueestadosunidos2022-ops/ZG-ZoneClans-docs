@@ -1,4 +1,4 @@
-# ZG ZoneClans
+# ZoneClans
 
 ## English
 
