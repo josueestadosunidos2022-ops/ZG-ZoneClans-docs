@@ -1,4 +1,4 @@
-# ZG ZoneClans — releases and compatibility
+# ZoneClans — releases and compatibility
 
 Protected Beta pair: **server 1.1.4 + client 1.1.4** (10 October 2026), author Elgochogms, All Rights Reserved. Uploaded to the **same CurseForge project** as server file [9124543](https://authors.curseforge.com/#/projects/1738046/files/9124543) and client file [9124556](https://authors.curseforge.com/#/projects/1738046/files/9124556). Moderation and public availability are pending.
 
