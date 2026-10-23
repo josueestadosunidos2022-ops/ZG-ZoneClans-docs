@@ -1,5 +1,28 @@
 # ZoneClans
 
+## Current update / Actualización actual — 2026-10-23
+
+Protected public builds prepared for Minecraft 1.20.1 / Forge 47.4.x / Java 17. Files become available after CurseForge approval. / Compilaciones públicas protegidas; los archivos estarán disponibles cuando CurseForge los apruebe.
+
+Updates the clan interfaces and fixes text clipping, wrapping and rank-header layout. Keeps clan saved data and the clans-2 protocol.
+
+| Side / Lado | Version / Versión | File / Archivo |
+|---|---|---|
+| server | 1.2.1 | `zonaclans-server-1.2.1-protected.jar` |
+| client | 1.2.1 | `zonaclans-client-1.2.1-protected.jar` |
+
+Install only the JAR for each side; never put both side JARs in one mods folder. Back up the world and preserve existing player data and TOML files. / Instala solo el JAR correspondiente a cada lado; conserva mundo, progreso y TOML existentes.
+
+**server dependencies / dependencias:** ZoneCore: Required Dependency ([2.0.0,)); ZoneCrates: Required Dependency ([2.0.1,3)); ZoneProtes: Optional Dependency (claim integration).
+
+**client dependencies / dependencias:** No additional Zone dependency / Sin dependencia adicional de Zone.
+
+Archive checks and isolated dedicated-server startup do not certify graphical gameplay, real multiplayer or the full modpack. / Las verificaciones de archivo y arranque aislado no certifican cliente gráfico, multijugador real ni modpack completo.
+
+## Earlier reference / Referencia anterior
+
+The following reference predates this update. Use the current versions and side instructions above when they differ. / La referencia siguiente es anterior; prevalecen las versiones y las indicaciones de lado de esta actualización.
+
 ## English
 
 Clans with ranks, a GodieCoin bank, wars and weekly rewards. Minecraft 1.20.1 / Forge 47.x.
@@ -41,4 +64,3 @@ Consulta la [referencia de configuración](CONFIGURATION.md) para claves detecta
 ## Ownership / Titularidad
 
 Documentation and original ZONE visual assets © Elgochogms. This repository contains documentation and a project avatar only; it does not distribute mod source code, private mappings, server secrets or production configuration.
-
